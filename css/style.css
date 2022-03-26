@@ -1,0 +1,177 @@
+/* importando fontes do google coloca sempre no inicio */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500&display=swap');
+/* reset de propriedades */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: #EFEFEF;
+    /* font-family: 'Open Sans', 'sans-serif'; */
+    font-family: cursive;
+    color: #A6A6A6;
+    /* font-weight: 500; */
+}
+header{
+    background-color: #A6A6A6; 
+
+    /* height: 150px; */
+     /*agi na coluna*/
+    /* align-itens alinha os elementos no centro */
+}
+.header-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%; 
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* h1, nav{
+    border: 5px solid white;
+} */
+h1{
+    font-family:'Open Sans', sans-serif ;
+    color: white;
+    border: 2px solid white; 
+    font-weight: 100;
+    align-self: center; /* alinha somente o logo ele trabalha na coluna parecido com alignh-itens */
+    
+}
+h1 span{
+    font-weight: 100;
+    font-family: cursive;
+    font-style: italic;
+}
+nav{
+    border: 2px solid white;
+    display: flex;
+    justify-content: space-between;
+    /* width: 30%; */
+    height: 90px;
+    
+}
+
+/*  */
+
+nav a{
+    padding: 30px 25px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+    color: white;
+    text-decoration: none;
+    /* transition: 0.8s; */
+    border: 1px solid red;
+
+    
+}
+nav a:hover{
+    /* color: red; */
+    background-color: #878787;
+}
+
+/* conteudo do main */
+main{
+    display: flex; 
+    align-items: stretch;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: transparent; 
+    /* height: 500px; */
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    width: 80%;
+    max-width: 1200px;
+}
+#conteudo{
+    background-color: #ffff;
+    width: 73%;
+    padding-bottom: 30px;
+    
+}
+aside{
+    background-color: transparent;
+    width: 25%;
+}
+#lapis{
+    width: 100%;
+    
+}
+h2{
+    font-size: 16px;
+    margin: 10px;
+    font-weight: 400;
+}
+p{
+    margin: 10px;
+}
+/* div{
+    border: 1px solid red; 
+} */
+.aside-box{
+    background-color: white;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+.aside-box h3{
+    padding-top: 10px;
+    padding-bottom: 5px;
+    border-bottom:1px solid #A6A6A6 ;
+    font-size: 16px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 400;
+}
+.aside-box form{
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid red; */
+    margin-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.aside-box form input{
+    width: 80%;
+    height: 40px;
+    border: 1px solid #EFEFEF;
+}
+.aside-box form button{
+    background-color: #A6A6A6;
+    padding: 10px;
+    border: 1px solid #A6A6A6;
+}
+.aside-box form button i{
+    color: white;
+    font-size: 20px;
+}
+.aside-box ul{
+    width: 80%;
+    /* border: 1px solid red; */
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+.aside-box ul li{
+    margin-left: 15px;
+    /* border: 1px solid red; */
+    margin-bottom: 10px;
+}
+.aside-box ul li a{
+    text-decoration: none;
+    color: #A6A6A6;
+}
+.aside-box ul li a:hover{
+    text-decoration: underline;
+}
+#email-marketing{
+    width: 90%;
+    max-width: initial;
+    margin-left: auto;
+    margin-right:auto ;
+}
+
+
